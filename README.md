@@ -85,6 +85,8 @@ This loss function encourages <img src="https://render.githubusercontent.com/ren
 |------|---------|---------|
 | WGAN-GP  | CIFAR-10 |  ![](images/samples/wgan_gp_cifar.png)|
 
+> WGAN-GP gets an inception score of 7.28 out of 10. The real images from CIFAR-10 get 9.97 of 10.
+
 | Model | Dataset | Generated samples | Reconstructions |
 |------|---------|---------|---------|
 | BiGAN  | MNIST |  ![](images/samples/bigan_samples.png)|  ![](images/samples/colorized_mnist_cyclegan.png)|
@@ -93,6 +95,14 @@ This loss function encourages <img src="https://render.githubusercontent.com/ren
 | Model | Dataset | Generated samples | Reconstructions |
 |------|---------|---------|---------|
 | CycleGAN  | MNIST and Colorized MNIST |  ![](images/samples/mnist_cyclegan.png)|  ![](images/samples/colorized_mnist_cyclegan.png)|
+
+
+**Inception scores:**
+
+| Model | Dataset | Inception score | Inception score on real images |
+|------|---------|:---------:|:---------:|
+| WGAN-GP  | CIFAR-10 | 7.28/10 | 9.97/10 |
+| WGAN-GP  | CIFAR-10 | 7.28/10 | 9.97/10 |
 
 
 
