@@ -97,14 +97,5 @@ This loss function encourages <img src="https://render.githubusercontent.com/ren
 | CycleGAN  | MNIST and Colorized MNIST |  ![](images/samples/mnist_cyclegan.png)|  ![](images/samples/colorized_mnist_cyclegan.png)|
 
 
-**Inception scores:**
-
-| Model | Dataset | Inception score | Inception score on real images |
-|------|---------|:---------:|:---------:|
-| WGAN-GP  | CIFAR-10 | 7.28/10 | 9.97/10 |
-| WGAN-GP  | CIFAR-10 | 7.28/10 | 9.97/10 |
-
-
-
 > *For CycleGAN:* To the left is a set of images showing real MNIST digits, transformations of those images into Colored MNIST digits, and reconstructions back into the greyscale domain. To the right, a set of images showing real Colored MNIST digits, transformations of those images, and reconstructions.
 
