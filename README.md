@@ -89,7 +89,7 @@ This loss function encourages <img src="https://render.githubusercontent.com/ren
 
 | Model | Dataset | Generated samples | Reconstructions |
 |------|---------|---------|---------|
-| BiGAN  | MNIST |  ![](images/samples/bigan_samples.png)|  ![](images/samples/colorized_mnist_cyclegan.png)|
+| BiGAN  | MNIST |  ![](images/samples/bigan_samples.png)|  ![](images/samples/bigan_reconstructions.png)|
 
 
 | Model | Dataset | Generated samples | Reconstructions |
